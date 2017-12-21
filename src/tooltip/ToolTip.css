@@ -1,0 +1,12 @@
+.header{
+    width: 10%;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1.5rem;
+    cursor: pointer;
+}
+.tooltip{
+    width: 200px;
+    border: 1px solid red;
+    z-index: 2;
+}
