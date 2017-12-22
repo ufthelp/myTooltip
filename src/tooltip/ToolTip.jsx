@@ -13,12 +13,9 @@ export default class ToolTip extends Component {
     render(){
         const {children} = this.props;
         return(
-            <section>
-                <section className={styles.tooltip}>
-                    12
-                </section>
-                <section className={styles.header}>
-                    {children}
+            <section className={styles.tooltip}> {children}
+                <section className={styles.tooltiptext}>
+                   test
                 </section>
             </section>
         );

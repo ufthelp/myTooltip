@@ -17,7 +17,6 @@ export default class Home extends Component {
               OnLoad
             </section>
           </ToolTip>
-          <section className={styles.onhover}>OnHover</section>
         </section>
       </div>
     );
